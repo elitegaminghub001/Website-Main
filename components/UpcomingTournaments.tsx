@@ -43,7 +43,7 @@ const tournaments = [
     color: "from-blue-500 to-cyan-500",
   },
   {
-    game: "Gran Turismo 7",
+    game: "Forza Horizon 6",
     date: "Coming Soon",
     entry: "₹150",
     prize: "Champion Trophy",

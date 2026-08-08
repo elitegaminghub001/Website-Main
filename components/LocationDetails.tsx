@@ -61,11 +61,11 @@ export default function LocationDetails() {
                 </h3>
 
                 <p className="text-gray-400 mt-2 leading-7">
+                  05 Ground Floor,
+                  <br />
                   Himalaya Falaknuma,
                   <br />
-                  Juhapura,
-                  <br />
-                  Ahmedabad, Gujarat - 380055
+                  Juhapura, Ahmedabad-380055
                 </p>
 
               </div>

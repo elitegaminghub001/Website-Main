@@ -1,12 +1,12 @@
 "use client";
 
+import Image from "next/image";
 import { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import {
   Menu,
   X,
-  Gamepad2,
   CalendarCheck,
 } from "lucide-react";
 
@@ -41,13 +41,15 @@ export default function Navbar() {
             className="flex items-center gap-3 group"
           >
 
-            <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-gradient-to-br from-violet-500/80 to-cyan-400/80 shadow-[0_0_22px_rgba(168,85,247,0.45)] transition group-hover:scale-105">
-
-              <Gamepad2
-                size={25}
-                className="text-white"
+            <div className="relative h-14 w-14 overflow-hidden rounded-2xl bg-transparent shadow-none transition group-hover:scale-105 sm:h-16 sm:w-16">
+              <Image
+                src="/logo.png"
+                alt="Elite Gaming Hub logo"
+                fill
+                priority
+                sizes="(max-width: 640px) 56px, 64px"
+                className="object-contain"
               />
-
             </div>
 
             <div className="leading-tight">
@@ -56,7 +58,7 @@ export default function Navbar() {
                 ELITE
               </div>
 
-              <div className="text-[11px] font-semibold tracking-[3px] text-violet-300">
+              <div className="text-[11px] font-semibold tracking-[3px] bg-gradient-to-r from-violet-300 via-purple-300 to-cyan-300 bg-clip-text text-transparent">
                 GAMING HUB
               </div>
 

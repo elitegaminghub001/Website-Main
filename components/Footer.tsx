@@ -1,8 +1,8 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import {
-  Gamepad2,
   MapPin,
   MessageCircle,
   Instagram,
@@ -51,26 +51,28 @@ export default function Footer() {
               className="inline-flex items-center gap-3"
             >
 
-              <div className="flex h-12 w-12 items-center justify-center rounded-xl border border-cyan-400/20 bg-cyan-500/10">
-                <Gamepad2
-                  size={27}
-                  className="text-cyan-400"
+              <div className="relative h-12 w-12 overflow-hidden rounded-xl bg-transparent">
+                <Image
+                  src="/logo.png"
+                  alt="Elite Gaming Hub logo"
+                  fill
+                  className="object-contain"
                 />
               </div>
 
               <div>
-                <div className="text-xl font-black">
+                <div className="text-xl font-black uppercase tracking-[0.12em] text-white text-glow" style={{ fontFamily: 'Orbitron, Inter, sans-serif' }}>
                   ELITE
                 </div>
 
-                <div className="text-[11px] font-semibold tracking-[3px] text-cyan-400">
-                  GAMING HUB
+                <div className="text-[11px] font-semibold tracking-[0.35em] uppercase bg-gradient-to-r from-violet-300 via-purple-300 to-cyan-300 bg-clip-text text-transparent" style={{ fontFamily: 'Orbitron, Inter, sans-serif' }}>
+                  Gaming Hub
                 </div>
               </div>
 
             </Link>
 
-            <p className="mt-6 max-w-xs text-sm leading-7 text-gray-500">
+            <p className="mt-6 max-w-xs text-sm leading-7 text-gray-300">
               Ahmedabad's gaming destination for PS5, PS4,
               racing simulator, multiplayer gaming and
               competitive tournaments.
@@ -108,7 +110,7 @@ export default function Footer() {
 
           <div>
 
-            <h3 className="text-sm font-bold uppercase tracking-[2px] text-white">
+            <h3 className="text-sm font-black uppercase tracking-[0.18em] text-white" style={{ fontFamily: 'Orbitron, Inter, sans-serif' }}>
               Quick Links
             </h3>
 
@@ -135,7 +137,7 @@ export default function Footer() {
 
           <div>
 
-            <h3 className="text-sm font-bold uppercase tracking-[2px] text-white">
+            <h3 className="text-sm font-black uppercase tracking-[0.18em] text-white" style={{ fontFamily: 'Orbitron, Inter, sans-serif' }}>
               Explore
             </h3>
 
@@ -162,7 +164,7 @@ export default function Footer() {
 
           <div>
 
-            <h3 className="text-sm font-bold uppercase tracking-[2px] text-white">
+            <h3 className="text-sm font-black uppercase tracking-[0.18em] text-white" style={{ fontFamily: 'Orbitron, Inter, sans-serif' }}>
               Visit Us
             </h3>
 
@@ -182,12 +184,12 @@ export default function Footer() {
                   className="mt-1 flex-shrink-0 text-cyan-400"
                 />
 
-                <span className="text-sm leading-6 text-gray-500 transition group-hover:text-gray-300">
+                <span className="text-sm leading-6 text-gray-300 transition group-hover:text-cyan-200">
+                  05 Ground Floor,
+                  <br />
                   Himalaya Falaknuma,
                   <br />
-                  Juhapura,
-                  <br />
-                  Ahmedabad, Gujarat - 380055
+                  Juhapura, Ahmedabad-380055
                 </span>
 
               </a>
@@ -198,7 +200,7 @@ export default function Footer() {
                 href={whatsappUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-3 text-sm text-gray-500 transition hover:text-green-400"
+                className="flex items-center gap-3 text-sm text-gray-300 transition hover:text-green-300"
               >
 
                 <MessageCircle
@@ -214,7 +216,7 @@ export default function Footer() {
 
               <a
                 href="tel:+917567154057"
-                className="flex items-center gap-3 text-sm text-gray-500 transition hover:text-cyan-400"
+                className="flex items-center gap-3 text-sm text-gray-300 transition hover:text-cyan-300"
               >
 
                 <Phone
@@ -228,7 +230,7 @@ export default function Footer() {
 
               {/* Hours */}
 
-              <div className="flex gap-3 text-sm text-gray-500">
+              <div className="flex gap-3 text-sm text-gray-300">
 
                 <Clock
                   size={19}
@@ -251,32 +253,32 @@ export default function Footer() {
 
         {/* Bottom */}
 
-        <div className="mt-14 flex flex-col gap-4 border-t border-white/5 pt-7 text-sm text-gray-600 md:flex-row md:items-center md:justify-between">
+        <div className="mt-14 flex flex-col gap-4 border-t border-white/5 pt-7 text-sm text-gray-400 md:flex-row md:items-center md:justify-between">
 
-          <p>
+          <p style={{ fontFamily: 'Inter, sans-serif' }}>
             © {new Date().getFullYear()} Elite Gaming Hub.
             All rights reserved.
           </p>
 
-          <div className="flex gap-5">
+          <div className="flex gap-5" style={{ fontFamily: 'Orbitron, Inter, sans-serif' }}>
 
             <Link
               href="/contact"
-              className="transition hover:text-gray-300"
+              className="uppercase tracking-[0.12em] transition hover:text-cyan-300"
             >
               Contact
             </Link>
 
             <Link
               href="/location"
-              className="transition hover:text-gray-300"
+              className="uppercase tracking-[0.12em] transition hover:text-cyan-300"
             >
               Find Us
             </Link>
 
             <Link
               href="/booking"
-              className="text-cyan-500 transition hover:text-cyan-400"
+              className="uppercase tracking-[0.12em] text-cyan-300 transition hover:text-cyan-200"
             >
               Book Now
             </Link>

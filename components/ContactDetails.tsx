@@ -19,7 +19,7 @@ const details = [
   {
     icon: MapPin,
     title: "Visit Us",
-    text: "Himalaya Falaknuma, Juhapura, Ahmedabad.",
+    text: "05 Ground Floor, Himalaya Falaknuma, Juhapura, Ahmedabad-380055.",
     action: "Get Directions",
     href: "https://maps.app.goo.gl/AQQfPj3vXeEbwBcGA?g_st=ic",
   },

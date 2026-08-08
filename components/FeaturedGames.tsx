@@ -26,7 +26,7 @@ const games = [
     genre: "Action",
   },
   {
-    title: "Gran Turismo 7",
+    title: "Forza Horizon 6",
     image: featuredGameArt.gt7,
     genre: "Racing",
   },
