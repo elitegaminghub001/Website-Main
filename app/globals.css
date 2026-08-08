@@ -1,14 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Orbitron:wght@400;500;700;800;900&display=swap");
 @import "tailwindcss";
 
 :root {
-  --background: #040814;
+  --background: #030712;
   --background-2: #0b1020;
-  --foreground: #f8f9ff;
-  --brand-purple: #a855f7;
-  --brand-violet: #8b5cf6;
-  --brand-blue: #4cc9ff;
+  --foreground: #f6f1ff;
+  --brand-purple: #c084fc;
+  --brand-violet: #a855f7;
+  --brand-blue: #5ee7ff;
   --brand-cyan: #7dd3fc;
-  --brand-glow: rgba(168, 85, 247, 0.28);
+  --brand-pink: #f0abfc;
+  --brand-glow: rgba(192, 132, 252, 0.35);
+  --text-soft: #d9d7ef;
 }
 
 * {
@@ -30,8 +33,33 @@ body {
     radial-gradient(circle at bottom right, rgba(76, 201, 255, 0.18), transparent 35%),
     linear-gradient(180deg, var(--background) 0%, var(--background-2) 100%);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Inter", "Segoe UI", sans-serif;
+  letter-spacing: 0.02em;
   overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.brand-word,
+.display-font {
+  font-family: "Orbitron", "Inter", sans-serif;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+p,
+span,
+a,
+button,
+li,
+input,
+textarea,
+select {
+  font-family: "Inter", "Segoe UI", sans-serif;
 }
 
 /* --------------------------------
@@ -66,11 +94,15 @@ body {
 -------------------------------- */
 
 .neon-text {
-  background: linear-gradient(135deg, #f5e8ff 0%, #b394ff 25%, #7dd3fc 100%);
+  background: linear-gradient(135deg, #fdf2ff 0%, #d8b4fe 18%, #c084fc 45%, #7dd3fc 100%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  text-shadow: 0 0 18px rgba(168, 85, 247, 0.35);
+  text-shadow: 0 0 20px rgba(192, 132, 252, 0.45), 0 0 30px rgba(125, 211, 252, 0.2);
+}
+
+.text-glow {
+  text-shadow: 0 0 18px rgba(192, 132, 252, 0.6), 0 0 28px rgba(94, 231, 255, 0.25);
 }
 
 /* --------------------------------
@@ -86,11 +118,14 @@ body {
   border-radius: 0.75rem;
   padding: 0.75rem 1.25rem;
 
-  background: linear-gradient(135deg, var(--brand-purple) 0%, var(--brand-blue) 100%);
+  background: linear-gradient(135deg, #d946ef 0%, #8b5cf6 40%, #4cc9ff 100%);
   color: #ffffff;
 
+  font-family: "Orbitron", "Inter", sans-serif;
   font-weight: 700;
-  box-shadow: 0 0 25px rgba(139, 92, 246, 0.35);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  box-shadow: 0 0 25px rgba(216, 70, 239, 0.38), 0 0 30px rgba(76, 201, 255, 0.15);
 
   transition:
     transform 200ms ease,
