@@ -7,7 +7,7 @@ export const featuredGameArt = {
   fc26: "/games/fc-26.jpeg",
   gta6: "/games/gta-6.jpeg",
   spiderman2: "/games/spiderman-2.jpeg",
-  gt7: "/games/forza-horizon-6.jpeg",
+  gt7: "/games/gran-turismo-7.jpeg",
   gow: "/games/god-of-war.jpeg",
   cricket26: "/games/fc-26.jpeg",
 };
