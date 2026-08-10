@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import { logoArt } from "@/lib/assetData";
 import { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -43,7 +44,7 @@ export default function Navbar() {
 
             <div className="relative h-14 w-14 overflow-hidden rounded-2xl bg-transparent shadow-none transition group-hover:scale-105 sm:h-16 sm:w-16">
               <Image
-                src="/logo.png"
+                src={logoArt}
                 alt="Elite Gaming Hub logo"
                 fill
                 priority

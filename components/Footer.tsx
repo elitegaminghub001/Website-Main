@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import { logoArt } from "@/lib/assetData";
 import Link from "next/link";
 import {
   MapPin,
@@ -53,7 +54,7 @@ export default function Footer() {
 
               <div className="relative h-12 w-12 overflow-hidden rounded-xl bg-transparent">
                 <Image
-                  src="/logo.png"
+                  src={logoArt}
                   alt="Elite Gaming Hub logo"
                   fill
                   className="object-contain"

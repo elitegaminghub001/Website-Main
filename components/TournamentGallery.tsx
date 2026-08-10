@@ -63,7 +63,7 @@ export default function TournamentGallery() {
           {gallery.map((item, index) => (
 
             <motion.div
-              key={item.src}
+              key={`${item.src}-${index}`}
               initial={{
                 opacity: 0,
                 y: 40,

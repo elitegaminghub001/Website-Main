@@ -1,28 +1,33 @@
-export const heroArt = "/gallery/gallery-01.jpeg?v=20260808";
+const assetVersion = "20260810";
+const withVersion = (path: string) => `${path}?v=${assetVersion}`;
 
-export const aboutArt = "/gallery/gallery-01.jpeg?v=20260808";
+export const logoArt = withVersion("/logo.png");
+
+export const heroArt = withVersion("/gallery/gallery-01.jpeg");
+
+export const aboutArt = withVersion("/gallery/gallery-01.jpeg");
 
 export const featuredGameArt = {
-  tekken8: "/games/tekken-8.jpeg",
-  fc26: "/games/fc-26.jpeg",
-  gta6: "/games/gta-6.jpeg",
-  spiderman2: "/games/spiderman-2.jpeg",
-  gt7: "/games/gran-turismo-7.jpeg",
-  gow: "/games/god-of-war.jpeg",
-  cricket26: "/games/fc-26.jpeg",
+  tekken8: withVersion("/games/tekken-8.jpeg"),
+  fc26: withVersion("/games/fc-26.jpeg"),
+  gta6: withVersion("/games/gta-6.jpeg"),
+  spiderman2: withVersion("/games/spiderman-2.jpeg"),
+  gt7: withVersion("/games/gran-turismo-7.jpeg"),
+  gow: withVersion("/games/god-of-war.jpeg"),
+  cricket26: withVersion("/games/fc-26.jpeg"),
 };
 
 export const galleryArt = [
-  "/gallery/gallery-01.jpeg?v=20260808",
-  "/gallery/gallery-02.jpeg?v=20260808",
-  "/gallery/gallery-03.jpeg?v=20260808",
-  "/gallery/gallery-01.jpeg?v=20260808",
-  "/gallery/gallery-02.jpeg?v=20260808",
-  "/gallery/gallery-03.jpeg?v=20260808",
-  "/gallery/gallery-01.jpeg?v=20260808",
-  "/gallery/gallery-02.jpeg?v=20260808",
-  "/gallery/gallery-03.jpeg?v=20260808",
-  "/gallery/gallery-01.jpeg?v=20260808",
-  "/gallery/gallery-02.jpeg?v=20260808",
-  "/gallery/gallery-03.jpeg?v=20260808",
+  withVersion("/gallery/gallery-01.jpeg"),
+  withVersion("/gallery/gallery-02.jpeg"),
+  withVersion("/gallery/gallery-03.jpeg"),
+  withVersion("/gallery/gallery-04.jpeg"),
+  withVersion("/gallery/gallery-05.jpeg"),
+  withVersion("/gallery/gallery-01.jpeg"),
+  withVersion("/gallery/gallery-02.jpeg"),
+  withVersion("/gallery/gallery-03.jpeg"),
+  withVersion("/gallery/gallery-04.jpeg"),
+  withVersion("/gallery/gallery-05.jpeg"),
+  withVersion("/gallery/gallery-01.jpeg"),
+  withVersion("/gallery/gallery-02.jpeg"),
 ];
