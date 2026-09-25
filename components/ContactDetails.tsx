@@ -14,7 +14,7 @@ const details = [
     title: "WhatsApp",
     text: "Message us for bookings and enquiries.",
     action: "Chat on WhatsApp",
-    href: "https://wa.me/917567154057",
+    href: "https://wa.me/918866585522",
   },
   {
     icon: MapPin,
@@ -28,7 +28,7 @@ const details = [
     title: "Gaming Hours",
     text: "Contact us to confirm today's opening hours.",
     action: "Ask on WhatsApp",
-    href: "https://wa.me/917567154057",
+    href: "https://wa.me/918866585522",
   },
   {
     icon: Instagram,

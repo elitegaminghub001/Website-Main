@@ -38,7 +38,7 @@ export default function ContactHero() {
           <div className="flex flex-wrap justify-center gap-4 mt-10">
 
             <a
-              href="https://wa.me/917567154057"
+              href="https://wa.me/918866585522"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary inline-flex items-center gap-2"

@@ -47,7 +47,7 @@ export default function JoinMembership() {
 `;
 
     window.open(
-      `https://wa.me/917567154057?text=${encodeURIComponent(message)}`,
+      `https://wa.me/918866585522?text=${encodeURIComponent(message)}`,
       "_blank"
     );
   };

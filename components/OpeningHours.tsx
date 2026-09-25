@@ -196,7 +196,7 @@ export default function OpeningHours() {
             </div>
 
             <a
-              href="https://wa.me/917567154057"
+              href="https://wa.me/918866585522"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary mt-8 w-full flex items-center justify-center gap-3"

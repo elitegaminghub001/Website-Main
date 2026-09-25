@@ -3,7 +3,7 @@
 import { MessageCircle, CalendarCheck } from "lucide-react";
 import Link from "next/link";
 
-const WHATSAPP_NUMBER = "917567154057";
+const WHATSAPP_NUMBER = "918866585522";
 
 export default function FloatingButtons() {
   const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}`;
