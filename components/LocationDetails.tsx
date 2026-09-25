@@ -12,7 +12,7 @@ import {
 const GOOGLE_MAPS_URL =
   "https://maps.app.goo.gl/AQQfPj3vXeEbwBcGA?g_st=ic";
 
-const WHATSAPP_NUMBER = "917567154057";
+const WHATSAPP_NUMBER = "918866585522";
 
 export default function LocationDetails() {
   const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}`;

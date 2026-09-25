@@ -156,7 +156,7 @@ export default function MembershipFAQ() {
           </p>
 
           <a
-            href="https://wa.me/917567154057"
+            href="https://wa.me/918866585522"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary inline-flex items-center gap-2 mt-6"

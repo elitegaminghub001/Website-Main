@@ -51,7 +51,7 @@ Please confirm my tournament registration.
     setSubmitted(true);
 
     window.open(
-      `https://wa.me/917567154057?text=${encodeURIComponent(
+      `https://wa.me/918866585522?text=${encodeURIComponent(
         message
       )}`,
       "_blank"

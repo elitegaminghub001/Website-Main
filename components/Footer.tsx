@@ -26,7 +26,7 @@ const usefulLinks = [
   { name: "Contact", href: "/contact" },
 ];
 
-const whatsappUrl = "https://wa.me/917567154057";
+const whatsappUrl = "https://wa.me/918866585522";
 
 const instagramUrl =
   "https://www.instagram.com/elite.gaming.hub/";
@@ -215,7 +215,7 @@ export default function Footer() {
               {/* Phone */}
 
               <a
-                href="tel:+917567154057"
+                href="tel:+918866585522"
                 className="flex items-center gap-3 text-sm text-gray-300 transition hover:text-cyan-300"
               >
 
@@ -224,7 +224,7 @@ export default function Footer() {
                   className="text-cyan-400"
                 />
 
-                +91 75671 54057
+                +91 88665 85522
 
               </a>
 
